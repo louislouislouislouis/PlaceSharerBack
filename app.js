@@ -7,7 +7,6 @@ const mongoose = require("mongoose");
 const placesRoutes = require("./routes/places-routes");
 const userRoutes = require("./routes/users-routes");
 const HttpError = require("./model/http-err");
-
 const app = express();
 app.use(bodyParser.json());
 
